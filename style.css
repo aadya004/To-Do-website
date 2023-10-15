@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%,rgba(23,23,111,0.9991525842788371) 47%, rgba(0,0,0,1) 100%);
+}
+.heading
+{
+    height: 15vh;
+}
+body h2
+{
+    position: relative;
+    top:25%;
+    left:5%;
+    color: white;
+    font-size:40px;
+}
+body button
+{
+    position: relative;
+    left:80%;
+    height: 4vh;
+    padding:0px 5px;
+}
+body h3
+{
+    position: relative;
+    left:37%;
+    color:aliceblue;
+    font-size: 25;
+    padding: 20px 0px;
+}
+.form-wrapper
+{
+    display: none;
+    position: relative;
+    left: 80%;
+    width: 400px;
+    padding: 20px 10px;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+input
+{
+    width: 80%;
+}
+#input-box
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: white;
+    font-weight: 14px;
+
+}
+form button
+{
+    border: none;
+    outline: none;
+    padding: 6px 15px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 80px;
+    
+}
+ul li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    width: 28px;
+    border-radius: 50%;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

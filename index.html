@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" ; <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My To-Do List</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h2>My To-Do List</h2>
+            <button onclick="add()">Add</button>
+            <button>Edit</button>
+            <button>Delete</button>
+        </div>
+        <div>
+            <h3>Here's what you have to do today!</h3>
+            <form class="form-wrapper" id="input">
+                <div class="form-control">
+                    <input type="text" placeholder="Enter a new task" id="input-box" name="new-task" required>
+                </div>
+                  <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        </div class="list">
+            <ul id="list-container">
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
